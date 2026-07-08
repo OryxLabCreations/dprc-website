@@ -52,14 +52,15 @@
       <span></span>
     </button>
 
-    <nav class="site-nav">
-      <a href="#about">About</a>
-      <a href="#facilities">Facilities</a>
-      <a href="#coaching">Coaching</a>
-      <a href="#socials">Socials</a>
-      <a href="#services">Racket Services</a>
-      <a href="#contact">Contact</a>
-    </nav>
+<nav class="site-nav">
+  <a href="#about">About</a>
+  <a href="#facilities">Facilities</a>
+  <a href="#coaching">Coaching</a>
+  <a href="#socials">Socials</a>
+  <a href="#services">Racket Services</a>
+  <a href="#enquiry">Enquiry</a>
+  <a href="#contact">Contact</a>
+</nav>
   </header>
 
   <main id="top">
@@ -82,21 +83,19 @@
         </p>
 
         <div class="hero-actions">
-          <a
-            class="btn btn-primary"
-            href="https://wa.me/971545812647?text=Hi%20Desert%20Palm%20Racquet%20Club%2C%20I%20would%20like%20to%20enquire%20about%20coaching.%20Please%20send%20me%20the%20available%20options."
-            target="_blank"
-rel="noopener noreferrer"
-          >
+<a
+  class="btn btn-primary enquiry-jump"
+  href="#enquiry"
+  data-enquiry-type="Coaching"
+>
             Book a Lesson
           </a>
 
-          <a
-            class="btn btn-secondary"
-            href="https://wa.me/971545812647?text=Hi%20Desert%20Palm%20Racquet%20Club%2C%20I%20would%20like%20to%20join%20a%20social.%20Please%20send%20me%20details%20for%20tennis%20or%20pickleball."
-            target="_blank"
-rel="noopener noreferrer"
-          >
+<a
+  class="btn btn-secondary enquiry-jump"
+  href="#enquiry"
+  data-enquiry-type="Tennis Social"
+>
             Join a Social
           </a>
         </div>
@@ -234,12 +233,11 @@ rel="noopener noreferrer"
           <span>Basic padel technique</span>
         </div>
 
-        <a
-          class="text-link"
-          href="https://wa.me/971545812647?text=Hi%20Desert%20Palm%20Racquet%20Club%2C%20I%20would%20like%20to%20enquire%20about%20coaching.%20Please%20send%20me%20the%20available%20options."
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+<a
+  class="text-link enquiry-jump"
+  href="#enquiry"
+  data-enquiry-type="Coaching"
+>
           Enquire about coaching
         </a>
       </div>
@@ -261,21 +259,19 @@ rel="noopener noreferrer"
       </div>
 
       <div class="split-actions">
-        <a
-          class="btn btn-primary"
-          href="https://wa.me/971545812647?text=Hi%20Desert%20Palm%20Racquet%20Club%2C%20I%20would%20like%20to%20join%20a%20social.%20Please%20send%20me%20details%20for%20tennis%20or%20pickleball."
-          target="_blank"
-rel="noopener noreferrer"
-        >
+<a
+  class="btn btn-primary enquiry-jump"
+  href="#enquiry"
+  data-enquiry-type="Tennis Social"
+>
           Join a Social
         </a>
 
-        <a
-          class="btn btn-outline"
-          href="https://wa.me/971545812647?text=Hi%20Desert%20Palm%20Racquet%20Club%2C%20I%20would%20like%20to%20enquire%20about%20seasonal%20camps.%20Please%20send%20me%20the%20current%20camp%20details."
-          target="_blank"
-rel="noopener noreferrer"
-        >
+<a
+  class="btn btn-outline enquiry-jump"
+  href="#enquiry"
+  data-enquiry-type="Seasonal Camp"
+>
           Register for Camp
         </a>
       </div>
@@ -333,12 +329,11 @@ rel="noopener noreferrer"
           </div>
         </div>
 
-        <a
-          class="text-link"
-          href="https://wa.me/971545812647?text=Hi%20Desert%20Palm%20Racquet%20Club%2C%20I%20would%20like%20to%20enquire%20about%20racket%20services."
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+<a
+  class="text-link enquiry-jump"
+  href="#enquiry"
+  data-enquiry-type="Racket Services"
+>
           Enquire about racket services
         </a>
       </div>
@@ -349,20 +344,135 @@ rel="noopener noreferrer"
       <div class="access-card">
         <div class="section-label">Club Access</div>
 
-        <h2>Private, personal, and enquiry-based.</h2>
+<h2>Private, personal, and enquiry-based.</h2>
 
-        <p>
-          Desert Palm Racquet Club is a private racquet sports facility serving
-          Desert Palm residents, registered hotel guests, and approved club
-          programmes.
-        </p>
+<p>
+  Desert Palm Racquet Club is a private racquet sports facility serving
+  Desert Palm residents, registered hotel guests, and selected club participants.
+</p>
 
-        <p>
-          Coaching, social play, seasonal camps, club events, and racket services
-          may be available by enquiry.
-        </p>
+<p>
+  Coaching, social play, seasonal camps, club events, and racket services
+  may be available through selected club programmes and by enquiry.
+</p>
       </div>
     </section>
+
+    <!-- ENQUIRY FORM -->
+<section id="enquiry" class="section enquiry-section">
+  <div class="section-top">
+    <div>
+      <div class="section-label">Enquiry</div>
+      <h2>Enquire with Desert Palm Racquet Club.</h2>
+    </div>
+
+    <p>
+      Send us a few details and we will guide you towards the right coaching,
+      social play, camp, or racket service option.
+    </p>
+  </div>
+
+  <form id="dprcEnquiryForm" class="enquiry-form">
+    <div class="form-grid">
+      <div class="form-field">
+        <label for="enquiryName">Name</label>
+        <input
+          type="text"
+          id="enquiryName"
+          name="name"
+          placeholder="Your name"
+          required
+        />
+      </div>
+
+      <div class="form-field">
+        <label for="enquiryPhone">Phone / WhatsApp</label>
+        <input
+          type="tel"
+          id="enquiryPhone"
+          name="phone"
+          placeholder="+971..."
+        />
+      </div>
+
+      <div class="form-field">
+        <label for="enquiryType">Enquiry type</label>
+        <select id="enquiryType" name="type" required>
+          <option value="">Select enquiry type</option>
+          <option value="Coaching">Coaching</option>
+          <option value="Tennis Social">Tennis Social</option>
+          <option value="Pickleball Social">Pickleball Social</option>
+          <option value="Seasonal Camp">Seasonal Camp</option>
+          <option value="Racket Services">Racket Services</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+
+      <div class="form-field">
+        <label for="enquirySport">Sport</label>
+        <select id="enquirySport" name="sport">
+          <option value="">Select sport</option>
+          <option value="Tennis">Tennis</option>
+          <option value="Pickleball">Pickleball</option>
+          <option value="Padel">Padel</option>
+          <option value="Squash">Squash</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+
+      <div class="form-field">
+        <label for="enquiryAge">Player age</label>
+        <input
+          type="text"
+          id="enquiryAge"
+          name="age"
+          placeholder="Adult / child age"
+        />
+      </div>
+
+      <div class="form-field">
+        <label for="enquiryLevel">Playing level</label>
+        <input
+          type="text"
+          id="enquiryLevel"
+          name="level"
+          placeholder="Beginner / intermediate / advanced"
+        />
+      </div>
+
+      <div class="form-field full-field">
+        <label for="enquiryAvailability">Preferred days / times</label>
+        <input
+          type="text"
+          id="enquiryAvailability"
+          name="availability"
+          placeholder="Example: weekday evenings, Saturday morning..."
+        />
+      </div>
+
+      <div class="form-field full-field">
+        <label for="enquiryMessage">Message</label>
+        <textarea
+          id="enquiryMessage"
+          name="message"
+          rows="5"
+          placeholder="Tell us briefly what you are looking for..."
+        ></textarea>
+      </div>
+    </div>
+
+    <div class="form-actions">
+      <button type="submit" class="btn btn-primary">
+        Send via WhatsApp
+      </button>
+
+      <p>
+        This form opens WhatsApp with your enquiry prepared. You can review the
+        message before sending.
+      </p>
+    </div>
+  </form>
+</section>
 
     <!-- CONTACT -->
     <section id="contact" class="section contact-section">
