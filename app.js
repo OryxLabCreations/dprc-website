@@ -84,3 +84,24 @@ enquiryJumpLinks.forEach((link) => {
     });
   });
 })();
+// DPRC mobile contact link: land slightly lower so icons are visible
+(() => {
+  const contactMenuLink = document.querySelector('.site-nav a[href="#contact"]');
+  const contactSection = document.querySelector("#contact");
+
+  if (contactMenuLink && contactSection) {
+    contactMenuLink.addEventListener("click", (event) => {
+      if (window.innerWidth <= 850) {
+        event.preventDefault();
+
+        const contactTop =
+          contactSection.getBoundingClientRect().top + window.pageYOffset;
+
+        window.scrollTo({
+          top: contactTop + 220,
+          behavior: "smooth",
+        });
+      }
+    });
+  }
+})();
