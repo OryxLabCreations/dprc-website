@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!--Generator: Xara Designer (www.xara.com), SVG filter version: 6,5,0,13-->
+<svg fill="none" fill-rule="evenodd" stroke="black" stroke-linejoin="bevel" stroke-miterlimit="10" font-family="Times New Roman" font-size="16" style="font-variant-ligatures:none" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" overflow="visible" width="192pt" height="192pt" viewBox="1776.15 -398.736 192 192">
+ <defs>
+  <style type="text/css">@import url('https://themes.googleusercontent.com/fonts/css?family=Open Sans:400,600');</style>
+ </defs>
+ <g id="Page background" transform="scale(1 -1)" stroke-width="0.501"/>
+ <g id="Layer 1" transform="scale(1 -1)" stroke-width="0.501">
+  <g id="Group" stroke="#c89a65" fill-rule="nonzero" stroke-linejoin="round" stroke-linecap="round" stroke-width="13.715" stroke-miterlimit="4">
+   <path d="M 1933.87,330.163 C 1933.87,289.022 1872.15,241.022 1872.15,241.022 C 1872.15,241.022 1810.44,289.022 1810.44,330.163 C 1810.44,363.774 1838.52,391.878 1872.15,391.878 C 1905.76,391.878 1933.87,363.774 1933.87,330.163 Z" marker-start="none" marker-end="none"/>
+   <path d="M 1872.15,309.593 C 1883.51,309.593 1892.72,318.791 1892.72,330.163 C 1892.72,341.521 1883.51,350.734 1872.15,350.734 C 1860.78,350.734 1851.58,341.521 1851.58,330.163 C 1851.58,318.791 1860.78,309.593 1872.15,309.593 Z" marker-start="none" marker-end="none"/>
+   <path d="M 1928.05,261.593 L 1940.72,261.593 L 1961.29,213.593 L 1783.01,213.593 L 1803.58,261.593 L 1816.23,261.593" fill="none"/>
+  </g>
+ </g>
+</svg>

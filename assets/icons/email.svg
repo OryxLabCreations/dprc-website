@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!--Generator: Xara Designer (www.xara.com), SVG filter version: 6,5,0,13-->
+<svg fill="none" fill-rule="evenodd" stroke="black" stroke-linejoin="bevel" stroke-miterlimit="10" font-family="Times New Roman" font-size="16" style="font-variant-ligatures:none" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" overflow="visible" width="192pt" height="157.716pt" viewBox="1739.25 -704.868 192 157.716">
+ <defs>
+  <style type="text/css">@import url('https://themes.googleusercontent.com/fonts/css?family=Open Sans:400,600');</style>
+ </defs>
+ <g id="Page background" transform="scale(1 -1)" stroke-width="0.501"/>
+ <g id="Layer 1" transform="scale(1 -1)" stroke-width="0.501">
+  <g id="Group" stroke="#c89a65" fill-rule="nonzero" stroke-linejoin="round" stroke-linecap="round" stroke-width="13.715" stroke-miterlimit="4">
+   <path d="M 1910.68,698.01 L 1759.82,698.01 C 1752.23,698.01 1746.11,691.864 1746.11,684.295 L 1746.11,567.724 C 1746.11,560.153 1752.23,554.009 1759.82,554.009 L 1910.68,554.009 C 1918.25,554.009 1924.39,560.153 1924.39,567.724 L 1924.39,684.295 C 1924.39,691.864 1918.25,698.01 1910.68,698.01 Z" marker-start="none" marker-end="none"/>
+   <path d="M 1746.11,680.876 L 1826.47,632.527 C 1828.93,631.083 1832.03,630.297 1835.25,630.297 C 1838.45,630.297 1841.56,631.083 1844.03,632.527 L 1924.39,680.876" fill="none"/>
+  </g>
+ </g>
+</svg>
