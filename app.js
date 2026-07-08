@@ -98,7 +98,7 @@ enquiryJumpLinks.forEach((link) => {
           contactSection.getBoundingClientRect().top + window.pageYOffset;
 
         window.scrollTo({
-          top: contactTop + 150,
+          top: contactTop + 180,
           behavior: "smooth",
         });
       }
