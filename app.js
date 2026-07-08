@@ -64,26 +64,23 @@ enquiryJumpLinks.forEach((link) => {
   });
 });
 // DPRC mobile menu: close after clicking a navigation link
-const mobileNavLinks = document.querySelectorAll(".site-nav a");
-const siteNav = document.querySelector(".site-nav");
-const menuToggle = document.querySelector(".menu-toggle");
+(() => {
+  const dprcMobileNavLinks = document.querySelectorAll(".site-nav a");
+  const dprcSiteNav = document.querySelector(".site-nav");
+  const dprcMenuToggle = document.querySelector(".menu-toggle");
 
-mobileNavLinks.forEach((link) => {
-  link.addEventListener("click", () => {
-    if (siteNav) {
-      siteNav.classList.remove("active");
-      siteNav.classList.remove("open");
-      siteNav.classList.remove("is-open");
-    }
+  dprcMobileNavLinks.forEach((link) => {
+    link.addEventListener("click", () => {
+      if (dprcSiteNav) {
+        dprcSiteNav.classList.remove("active", "open", "is-open");
+      }
 
-    if (menuToggle) {
-      menuToggle.classList.remove("active");
-      menuToggle.classList.remove("open");
-      menuToggle.classList.remove("is-open");
-      menuToggle.setAttribute("aria-expanded", "false");
-    }
+      if (dprcMenuToggle) {
+        dprcMenuToggle.classList.remove("active", "open", "is-open");
+        dprcMenuToggle.setAttribute("aria-expanded", "false");
+      }
 
-    document.body.classList.remove("nav-open");
-    document.body.classList.remove("menu-open");
+      document.body.classList.remove("nav-open", "menu-open");
+    });
   });
-});
+})();
