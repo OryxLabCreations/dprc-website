@@ -951,3 +951,18 @@ p {
     line-height: 1.12;
   }
 }
+/* V1 polish: smooth anchor scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Prevent sticky header from covering section starts */
+[id] {
+  scroll-margin-top: 96px;
+}
+
+@media (max-width: 850px) {
+  [id] {
+    scroll-margin-top: 84px;
+  }
+}
