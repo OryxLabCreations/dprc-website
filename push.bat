@@ -13,6 +13,16 @@ set /p msg=Commit message:
 if "%msg%"=="" set msg=Update DPRC website
 
 git add .
+
+git diff --cached --quiet
+if %errorlevel%==0 (
+  echo.
+  echo No changes to commit.
+  echo.
+  pause
+  exit /b
+)
+
 git commit -m "%msg%"
 git push
 
