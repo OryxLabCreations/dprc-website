@@ -84,23 +84,25 @@ enquiryJumpLinks.forEach((link) => {
     });
   });
 })();
-// DPRC mobile contact link: land slightly lower so icons are visible
+// DPRC mobile contact link: land on the contact card
 (() => {
   const contactMenuLink = document.querySelector('.site-nav a[href="#contact"]');
-  const contactSection = document.querySelector("#contact");
+  const contactCard = document.querySelector("#contact .contact-card");
 
-  if (contactMenuLink && contactSection) {
+  if (contactMenuLink && contactCard) {
     contactMenuLink.addEventListener("click", (event) => {
       if (window.innerWidth <= 850) {
         event.preventDefault();
 
-        const contactTop =
-          contactSection.getBoundingClientRect().top + window.pageYOffset;
+        setTimeout(() => {
+          const contactCardTop =
+            contactCard.getBoundingClientRect().top + window.pageYOffset;
 
-        window.scrollTo({
-          top: contactTop + 180,
-          behavior: "smooth",
-        });
+          window.scrollTo({
+            top: contactCardTop - 18,
+            behavior: "smooth",
+          });
+        }, 80);
       }
     });
   }
