@@ -10,7 +10,7 @@
   --muted: #66736a;
   --line: rgba(70, 97, 77, 0.18);
   --shadow: 0 24px 70px rgba(20, 32, 25, 0.18);
-  --radius: 28px;
+  --radius: 24px;
   --max: 1180px;
 }
 
@@ -591,6 +591,10 @@ p {
 }
 
 @media (max-width: 850px) {
+  :root {
+    --radius: 22px;
+  }
+
   .site-header {
     height: 68px;
   }
@@ -951,18 +955,7 @@ p {
     line-height: 1.12;
   }
 }
-/* V1 polish: smooth anchor scrolling */
-html {
-  scroll-behavior: smooth;
-}
-
-/* Prevent sticky header from covering section starts */
+/* V1 polish: anchor landing */
 [id] {
   scroll-margin-top: 96px;
-}
-
-@media (max-width: 850px) {
-  [id] {
-    scroll-margin-top: 84px;
-  }
 }
