@@ -498,7 +498,7 @@ p {
   border-radius: var(--radius);
   background:
     linear-gradient(135deg, rgba(255, 250, 240, 0.9), rgba(255, 250, 240, 0.56)),
-    url("assets/tennis-wall.jpeg");
+    url("assets/access.png");
   background-size: cover;
   background-position: center;
   border: 1px solid var(--line);
