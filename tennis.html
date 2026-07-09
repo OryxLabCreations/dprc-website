@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Tennis at Desert Palm Racquet Club | Dubai</title>
+  <meta
+    name="description"
+    content="Tennis coaching, social play, junior development, and club activity at Desert Palm Racquet Club in Dubai."
+  />
+
+  <link rel="icon" type="image/png" href="assets/logo-light.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <a href="index.html#top" class="brand">
+      <img src="assets/logo-light.png" alt="Desert Palm Racquet Club logo" />
+    </a>
+
+    <button class="menu-toggle" aria-label="Open menu">
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav">
+      <a href="index.html#about">About</a>
+      <a href="index.html#facilities">Facilities</a>
+      <a href="index.html#coaching">Coaching</a>
+      <a href="index.html#socials">Socials</a>
+      <a href="index.html#services">Racket Services</a>
+      <a href="index.html#enquiry">Enquiry</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero sub-hero">
+      <div class="hero-image">
+        <img src="assets/rally.png" alt="Tennis courts at Desert Palm Racquet Club" />
+      </div>
+
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+        <p class="eyebrow">Tennis · Desert Palm Racquet Club</p>
+
+        <h1>Tennis at Desert Palm</h1>
+
+        <p class="hero-text">
+          Coaching, social play, junior development, and club activity in a calm
+          private estate setting.
+        </p>
+
+        <div class="hero-actions">
+          <a
+  class="btn btn-primary enquiry-jump"
+  href="#tennis-enquiry"
+  data-enquiry-type="Tennis Coaching"
+>
+  Enquire About Tennis
+</a>
+
+          <a class="btn btn-secondary" href="index.html#facilities">
+            Back to Club
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section intro-section">
+      <div class="section-label">Tennis</div>
+
+      <div class="intro-grid">
+        <div>
+          <h2>Coaching, play, and development on court.</h2>
+        </div>
+
+        <div>
+          <p>
+            Tennis is at the heart of Desert Palm Racquet Club, with coaching
+            and club activity available for juniors, adults, families, and
+            developing players.
+          </p>
+
+          <p>
+            Sessions are handled by enquiry so players can be guided towards
+            the right format, level, and schedule.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="detail-image-duo">
+  <img
+    src="assets/balls.png"
+    alt="Tennis ball detail at Desert Palm Racquet Club"
+    loading="lazy"
+    decoding="async"
+  />
+
+  <img
+    src="assets/bench.png"
+    alt="Tennis bench and court detail at Desert Palm Racquet Club"
+    loading="lazy"
+    decoding="async"
+  />
+</section>
+
+    <section class="section">
+      <div class="card-grid three-grid">
+        <article class="service-card">
+          <span>01</span>
+          <h3>Coaching</h3>
+          <p>
+            Private, semi-private, junior, adult, and small-group coaching
+            options by enquiry.
+          </p>
+        </article>
+
+        <article class="service-card">
+          <span>02</span>
+          <h3>Social Play</h3>
+          <p>
+            Tennis socials and club play opportunities for players looking for
+            a relaxed, organised hit.
+          </p>
+        </article>
+
+        <article class="service-card">
+          <span>03</span>
+          <h3>Junior Development</h3>
+          <p>
+            Support for younger players through coaching, seasonal camps, and
+            suitable playing opportunities.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section access-section">
+      <div class="access-card">
+        <div class="section-label">Tennis Enquiry</div>
+
+        <h2>Find the right tennis option.</h2>
+
+        <p>
+          Tell us the player age, level, preferred days, and whether you are
+          looking for coaching, social play, or junior development.
+        </p>
+
+        <div class="hero-actions">
+          <a
+  class="btn btn-primary enquiry-jump"
+  href="#tennis-enquiry"
+  data-enquiry-type="Tennis Coaching"
+>
+  Send Tennis Enquiry
+</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="tennis-enquiry" class="section enquiry-section">
+  <div class="section-top">
+    <div>
+      <div class="section-label">Tennis Enquiry</div>
+      <h2>Tell us about the player.</h2>
+    </div>
+
+    <p>
+      Send us a few details and we will guide you towards the right tennis
+      coaching, social play, or junior development option.
+    </p>
+  </div>
+
+  <form id="dprcEnquiryForm" class="enquiry-form">
+    <input type="hidden" id="enquirySport" name="sport" value="Tennis" />
+
+    <div class="form-grid">
+      <div class="form-field">
+        <label for="enquiryName">Name</label>
+        <input
+          type="text"
+          id="enquiryName"
+          name="name"
+          placeholder="Your name"
+          required
+        />
+      </div>
+
+      <div class="form-field">
+        <label for="enquiryPhone">Phone / WhatsApp</label>
+        <input
+          type="tel"
+          id="enquiryPhone"
+          name="phone"
+          placeholder="+971..."
+        />
+      </div>
+
+      <div class="form-field">
+        <label for="enquiryType">Tennis enquiry type</label>
+        <select id="enquiryType" name="type" required>
+          <option value="Tennis Coaching" selected>Tennis Coaching</option>
+          <option value="Tennis Social">Tennis Social</option>
+          <option value="Junior Tennis">Junior Tennis</option>
+          <option value="Adult Tennis">Adult Tennis</option>
+          <option value="Seasonal Camp">Seasonal Camp</option>
+          <option value="Other Tennis Enquiry">Other Tennis Enquiry</option>
+        </select>
+      </div>
+
+      <div class="form-field">
+        <label for="enquiryAge">Player age</label>
+        <input
+          type="text"
+          id="enquiryAge"
+          name="age"
+          placeholder="Adult / child age"
+        />
+      </div>
+
+      <div class="form-field">
+        <label for="enquiryLevel">Playing level</label>
+        <input
+          type="text"
+          id="enquiryLevel"
+          name="level"
+          placeholder="Beginner / intermediate / advanced"
+        />
+      </div>
+
+      <div class="form-field">
+        <label for="enquiryAvailability">Preferred days / times</label>
+        <input
+          type="text"
+          id="enquiryAvailability"
+          name="availability"
+          placeholder="Example: weekday evenings..."
+        />
+      </div>
+
+      <div class="form-field full-field">
+        <label for="enquiryMessage">Message</label>
+        <textarea
+          id="enquiryMessage"
+          name="message"
+          rows="5"
+          placeholder="Tell us briefly what you are looking for..."
+        ></textarea>
+      </div>
+    </div>
+
+    <div class="form-actions">
+      <button type="submit" class="btn btn-primary">
+        Send Tennis Enquiry via WhatsApp
+      </button>
+
+      <p>
+        This form opens WhatsApp with your tennis enquiry prepared. You can
+        review the message before sending.
+      </p>
+    </div>
+  </form>
+</section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© Desert Palm Racquet Club</p>
+    <p>Private racquet sports at Desert Palm Estate.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
