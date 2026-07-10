@@ -1055,3 +1055,52 @@ p {
     transform: none;
   }
 }
+/* V1.5 mobile-only section rhythm */
+.mobile-section-image {
+  display: none;
+}
+
+@media (max-width: 850px) {
+  .mobile-section-image {
+    display: block;
+    margin: 26px 0 26px;
+  }
+
+  .mobile-section-image img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+  }
+
+  /* Hide desktop/supporting image layouts on mobile where we now use one main section image */
+  .image-strip {
+    display: none;
+  }
+
+  .feature-section > .feature-image {
+    display: none;
+  }
+
+  #socials .wide-image {
+    display: none;
+  }
+
+  /* Tighten mobile section flow */
+  .intro-grid {
+    gap: 20px;
+  }
+
+  .feature-content {
+    padding: 0;
+  }
+
+  .feature-content p {
+    margin-top: 0;
+  }
+
+  #socials .section-top {
+    margin-bottom: 28px;
+  }
+}
