@@ -1104,3 +1104,10 @@ p {
     margin-bottom: 28px;
   }
 }
+/* V1.5 mobile-only detail page rhythm */
+@media (max-width: 850px) {
+  .detail-image-duo,
+  .detail-image-grid {
+    display: none;
+  }
+}
