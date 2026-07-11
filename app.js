@@ -107,3 +107,39 @@ enquiryJumpLinks.forEach((link) => {
     });
   }
 })();
+// DPRC floating update ticker
+(() => {
+  const updates = window.dprcUpdates;
+
+  if (!Array.isArray(updates) || updates.length === 0) {
+    return;
+  }
+
+  const updateBar = document.createElement("div");
+  updateBar.className = "dprc-update-bar";
+  updateBar.setAttribute("aria-label", "Desert Palm Racquet Club updates");
+
+  const updateTrack = document.createElement("div");
+  updateTrack.className = "dprc-update-track";
+
+  const repeatedUpdates = [...updates, ...updates];
+
+  repeatedUpdates.forEach((item) => {
+    const updateItem = document.createElement("a");
+    updateItem.className = "dprc-update-item";
+    updateItem.href = item.href || "index.html#contact";
+
+    const label = document.createElement("strong");
+    label.textContent = item.label || "Update";
+
+    const text = document.createElement("span");
+    text.textContent = item.text || "";
+
+    updateItem.appendChild(label);
+    updateItem.appendChild(text);
+    updateTrack.appendChild(updateItem);
+  });
+
+  updateBar.appendChild(updateTrack);
+  document.body.appendChild(updateBar);
+})();
