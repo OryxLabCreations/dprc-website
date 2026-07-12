@@ -3,28 +3,28 @@
 
 window.dprcUpdates = [
   {
-    label: "Coaching",
-    text: "Private, semi-private, junior, and adult coaching available",
-    href: "index.html#enquiry",
-  },
-  {
     label: "Tennis Social",
-    text: "Monday & Wednesday evenings, Saturday morning",
+    text: "Monday & Wednesday 8PM · Saturday 7AM",
     href: "index.html#enquiry",
   },
   {
-    label: "Pickleball",
-    text: "Sunday morning social play",
+    label: "Pickleball Social",
+    text: "Sunday 8AM · friendly organised club play",
     href: "pickleball.html",
   },
   {
-    label: "Racket Services",
-    text: "Stringing, grips, and setup support available",
-    href: "racket-services.html",
+    label: "Social Play",
+    text: "Join by enquiry · we will guide you to the right session",
+    href: "index.html#enquiry",
   },
   {
-    label: "Club",
-    text: "Send us a message and we will guide you to the right option",
-    href: "index.html#contact",
+    label: "Coaching",
+    text: "Private, semi-private, junior, adult, and small-group sessions",
+    href: "tennis.html",
+  },
+  {
+    label: "Racket Services",
+    text: "Stringing, grips, racket advice, and setup support available",
+    href: "racket-services.html",
   },
 ];
